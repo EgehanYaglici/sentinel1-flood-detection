@@ -1,0 +1,128 @@
+{
+  "same orbit 110, 20 Oct to 01 Nov": {
+    "median_db": 0.72,
+    "sigma_db": 3.268,
+    "valid_px": 6639201,
+    "grid": {
+      "-3.00 dB": {
+        "px": 761967,
+        "raw_km2": 76.2,
+        "pct_valid": 11.48,
+        "polys_raw": 3555,
+        "min1ha_km2": 70.45,
+        "min1ha_n": 368,
+        "min2ha_km2": 67.53,
+        "min2ha_n": 161,
+        "min5ha_km2": 64.46,
+        "min5ha_n": 63,
+        "min10ha_km2": 62.6,
+        "min10ha_n": 36
+      },
+      "-5.00 dB": {
+        "px": 450635,
+        "raw_km2": 45.06,
+        "pct_valid": 6.79,
+        "polys_raw": 1036,
+        "min1ha_km2": 43.47,
+        "min1ha_n": 69,
+        "min2ha_km2": 43.01,
+        "min2ha_n": 35,
+        "min5ha_km2": 42.73,
+        "min5ha_n": 26,
+        "min10ha_km2": 42.13,
+        "min10ha_n": 18
+      },
+      "-5.82 dB": {
+        "px": 409492,
+        "raw_km2": 40.95,
+        "pct_valid": 6.17,
+        "polys_raw": 538,
+        "min1ha_km2": 40.01,
+        "min1ha_n": 70,
+        "min2ha_km2": 39.81,
+        "min2ha_n": 55,
+        "min5ha_km2": 39.18,
+        "min5ha_n": 37,
+        "min10ha_km2": 38.41,
+        "min10ha_n": 27
+      },
+      "-9.08 dB": {
+        "px": 248327,
+        "raw_km2": 24.83,
+        "pct_valid": 3.74,
+        "polys_raw": 495,
+        "min1ha_km2": 24.06,
+        "min1ha_n": 125,
+        "min2ha_km2": 23.62,
+        "min2ha_n": 93,
+        "min5ha_km2": 22.63,
+        "min5ha_n": 64,
+        "min10ha_km2": 21.12,
+        "min10ha_n": 44
+      }
+    }
+  },
+  "cross orbit 8 to 110, 25 Oct to 01 Nov": {
+    "median_db": -1.489,
+    "sigma_db": 5.648,
+    "valid_px": 4256921,
+    "grid": {
+      "-3.00 dB": {
+        "px": 1632432,
+        "raw_km2": 163.24,
+        "pct_valid": 38.35,
+        "polys_raw": 3820,
+        "min1ha_km2": 155.79,
+        "min1ha_n": 562,
+        "min2ha_km2": 151.54,
+        "min2ha_n": 252,
+        "min5ha_km2": 146.32,
+        "min5ha_n": 85,
+        "min10ha_km2": 143.21,
+        "min10ha_n": 41
+      },
+      "-5.00 dB": {
+        "px": 900258,
+        "raw_km2": 90.03,
+        "pct_valid": 21.15,
+        "polys_raw": 4028,
+        "min1ha_km2": 81.9,
+        "min1ha_n": 498,
+        "min2ha_km2": 78.23,
+        "min2ha_n": 238,
+        "min5ha_km2": 73.54,
+        "min5ha_n": 83,
+        "min10ha_km2": 70.53,
+        "min10ha_n": 39
+      },
+      "-12.79 dB": {
+        "px": 164883,
+        "raw_km2": 16.49,
+        "pct_valid": 3.87,
+        "polys_raw": 707,
+        "min1ha_km2": 14.89,
+        "min1ha_n": 110,
+        "min2ha_km2": 14.22,
+        "min2ha_n": 61,
+        "min5ha_km2": 12.87,
+        "min5ha_n": 18,
+        "min10ha_km2": 12.12,
+        "min10ha_n": 7
+      },
+      "-18.43 dB": {
+        "px": 22785,
+        "raw_km2": 2.28,
+        "pct_valid": 0.54,
+        "polys_raw": 182,
+        "min1ha_km2": 1.8,
+        "min1ha_n": 35,
+        "min2ha_km2": 1.51,
+        "min2ha_n": 14,
+        "min5ha_km2": 1.22,
+        "min5ha_n": 4,
+        "min10ha_km2": 1.12,
+        "min10ha_n": 3
+      }
+    }
+  }
+}

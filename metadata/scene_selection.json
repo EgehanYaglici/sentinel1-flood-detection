@@ -1,0 +1,60 @@
+{
+  "event": "Valencia DANA Flood",
+  "event_date": "2024-10-29",
+  "aoi_bbox": [
+    -0.6,
+    39.2,
+    -0.2,
+    39.5
+  ],
+  "pre_event_window": [
+    "2024-10-01",
+    "2024-10-28"
+  ],
+  "post_event_window": [
+    "2024-10-29",
+    "2024-11-15"
+  ],
+  "total_candidates": 28,
+  "selected_pair": {
+    "pre": {
+      "id": "S1A_IW_GRDH_1SDV_20241026T175501_20241026T175526_056277_06E43E",
+      "datetime": "2024-10-26T17:55:13.532065Z",
+      "platform": "sentinel-1a",
+      "orbit_direction": "ascending",
+      "relative_orbit": 30,
+      "polarization": "['VV', 'VH']",
+      "instrument_mode": "IW",
+      "product_type": "GRD",
+      "source": "https://earth-search.aws.element84.com/v1",
+      "period": "pre-event",
+      "bbox": [
+        -1.1252867,
+        39.2022299,
+        2.10001,
+        41.0945001
+      ],
+      "score": 18
+    },
+    "post": {
+      "id": "S1A_IW_GRDH_1SDV_20241112T180255_20241112T180320_056525_06EE16_C306_COG",
+      "datetime": "2024-11-12T18:02:55.367611Z",
+      "platform": "sentinel-1a",
+      "orbit_direction": "ascending",
+      "relative_orbit": 103,
+      "polarization": "['VV', 'VH']",
+      "instrument_mode": "IW",
+      "product_type": "",
+      "source": "https://catalogue.dataspace.copernicus.eu/stac",
+      "period": "post-event",
+      "bbox": [
+        -2.922747,
+        38.065193,
+        0.387278,
+        39.970974
+      ],
+      "score": 13
+    },
+    "reason": "Selected by orbit consistency, mode, and polarization"
+  }
+}

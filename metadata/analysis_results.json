@@ -1,0 +1,28 @@
+{
+  "event": "Valencia DANA Flood - October 2024",
+  "aoi": [
+    -0.6,
+    39.2,
+    -0.2,
+    39.5
+  ],
+  "processing_crs": "EPSG:32630",
+  "resolution_m": 10,
+  "detection": {
+    "threshold_db": -2.43,
+    "method": "mean - 1.5 * std",
+    "mean_difference_db": -0.18,
+    "std_difference_db": 1.5,
+    "detected_pixels": 225467,
+    "total_valid_pixels": 11490579,
+    "detected_area_pct": 2.0
+  },
+  "context": {
+    "total_detected_area_ha": 2255.1,
+    "polygon_count": 42,
+    "largest_polygon_ha": 236.3,
+    "buildings_note": "Could not fetch: HTTPSConnectionPool(host='overpass-api.de', port=443): Max retries exceeded with url: /api/interpreter (Caused by NewConnectionError(\"HTTPSConnection(host='overpass-api.de', port=443): Failed to establish a new connection: [Errno 61] Connection refused\"))",
+    "roads_note": "Could not fetch: HTTPSConnectionPool(host='overpass-api.de', port=443): Max retries exceeded with url: /api/interpreter (Caused by NewConnectionError(\"HTTPSConnection(host='overpass-api.de', port=443): Failed to establish a new connection: [Errno 61] Connection refused\"))"
+  },
+  "disclaimer": "Exploratory SAR-derived change/water detection. Not authoritative flood mapping. Intersection with infrastructure does not prove actual damage."
+}

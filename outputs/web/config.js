@@ -1,0 +1,1 @@
+window.__MAPBOX_TOKEN__ = 'pk.REDACTED_MAPBOX_TOKEN';

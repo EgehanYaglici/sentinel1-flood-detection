@@ -1,0 +1,69 @@
+{
+  "pre_item": "S1A_IW_GRDH_1SDV_20241020T060232_20241020T060257_056182_06E074_rtc",
+  "post_item": "S1A_IW_GRDH_1SDV_20241101T060232_20241101T060257_056357_06E766_rtc",
+  "relative_orbit": 110,
+  "orbit_state": "descending",
+  "collection": "sentinel-1-rtc, Microsoft Planetary Computer",
+  "pixel_m": 10.0,
+  "crs": "EPSG:32631",
+  "multilook_window": 7,
+  "looks": 49,
+  "valid_px": 6639201,
+  "median_db": 0.72,
+  "sigma_db": 3.268,
+  "levels": [
+    {
+      "name": "conservative",
+      "threshold_db": -9.08,
+      "sigma": -3.0,
+      "min_patch_ha": 10.0,
+      "patches": 44,
+      "area_km2": 21.11
+    },
+    {
+      "name": "inclusive",
+      "threshold_db": -5.82,
+      "sigma": -2.0,
+      "min_patch_ha": 1.0,
+      "patches": 70,
+      "area_km2": 40.03
+    }
+  ],
+  "minus3db_is_sigma": -1.14,
+  "otsu": {
+    "threshold_db": -3.57,
+    "sigma": -1.31,
+    "background_mode_mean_db": 0.85,
+    "flood_mode_mean_db": -7.88,
+    "min_patch_ha": 5.0,
+    "patches": 51,
+    "area_km2": 50.96
+  },
+  "sigma_db_by_looks": [
+    {
+      "looks": 1,
+      "sigma_db": 4.174
+    },
+    {
+      "looks": 9,
+      "sigma_db": 3.681
+    },
+    {
+      "looks": 25,
+      "sigma_db": 3.417
+    },
+    {
+      "looks": 49,
+      "sigma_db": 3.268
+    },
+    {
+      "looks": 81,
+      "sigma_db": 3.167
+    },
+    {
+      "looks": 121,
+      "sigma_db": 3.093
+    }
+  ],
+  "note": "Recomputed 2026-08-13 from the source RTC COGs. Supersedes metadata/analysis_results.json and the earlier cross-orbit run."
+}
