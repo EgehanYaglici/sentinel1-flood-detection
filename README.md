@@ -1,4 +1,4 @@
-# 05 Sentinel-1 SAR Flood Detection
+# Sentinel-1 SAR Flood Detection
 
 ## Overview
 
@@ -74,8 +74,6 @@ Vectorization & Context Analysis
 ## Reproduction
 
 ```bash
-cd 05-sentinel1-sar
-
 # Discover available scenes
 python src/acquisition/discover_scenes.py
 
